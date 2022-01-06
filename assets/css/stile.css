@@ -1,6 +1,8 @@
+/*General*/
 body{
     background-color: black;
 }
+/*Header*/
 .navbar-brand img{
     width: 30px;
 }
@@ -11,3 +13,9 @@ body{
     text-align: center;
     border: 5px;
 }
+/*Content*/
+.card img{
+    height: 250px;
+}
+
+/*Footer*/

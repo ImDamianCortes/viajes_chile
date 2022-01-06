@@ -8,6 +8,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
+    <!-- CDN - Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
     <!-- Style -->
     <link rel="stylesheet" href="assets/css/stile.css">
 
@@ -18,11 +21,11 @@
   <body>
     
     <!-- Header -->
-    <header class="header">
+    <header class="header" id="home">
         <!-- NavBar -->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <div class="container">
-                <a class="navbar-brand" href="#home">
+                <a class="navbar-brand d-flex" href="#home">
                   <img src="assets/img/viajes.svg" alt="">
                   <h2>Viajes Chile</h2>
                 </a>
@@ -75,7 +78,7 @@
     <main class="body__content">
       <div class="container-fluid">
         <!-- section - Quienes somos -->
-        <section id="about" class="d-none d-md-block bg-success">
+        <section id="about" class="d-none d-md-block bg-success mt-4 px-4 py-4">
           <!-- section - Quienes somos - title -->
           <h2 class="section__title border-bottom py-3">¿Quienes Somos?</h2>
           <!-- section - Quienes somos - articles -->
@@ -85,8 +88,8 @@
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iure adipisci commodi qui maxime libero accusamus facilis quos nemo quae temporibus harum cupiditate, reprehenderit voluptatem voluptas consequatur. Praesentium veritatis quo architecto quia ratione, qui amet, odio maxime quibusdam beatae animi repellendus. Amet, esse fugiat. Unde nobis dolorem iste quibusdam explicabo.</p>
             </article>
             <article class="col-12 col-lg-4">
-              <h5 class="bg-warning text-center">ejemplo</h5>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iure adipisci commodi qui maxime libero accusamus facilis quos nemo quae temporibus harum cupiditate, reprehenderit voluptatem voluptas consequatur. Praesentium veritatis quo architecto quia ratione, qui amet, odio maxime quibusdam beatae animi repellendus. Amet, esse fugiat. Unde nobis dolorem iste quibusdam explicabo.</p>
+              <h5 class="bg-warning text-center">ejemplo</h5>
             </article>
             <article class="col-12 col-lg-4">
               <h5 class="bg-warning text-center">ejemplo</h5>
@@ -95,7 +98,7 @@
           </div>
         </section>
         <!-- section - Destacados -->
-        <section id="destacados" class="bg-danger">
+        <section id="destacados" class="bg-danger mt-4 px-4 py-4">
           <!-- section - Destacados - title -->
           <h2 class="section__title border-bottom py-3">Destacados</h2>
           <!-- section - Quienes somos - cards -->
@@ -145,16 +148,28 @@
           </div>
         </section>
         <!-- section - Formulario contacto -->
-        <section id="contacto">
+        <section id="contacto" class="bg-warning my-4 px-4 py-4">
           <!-- section - Contacto - title -->
           <h2 class="section__title border-bottom py-3">Contacto</h2>
+          <!-- section - Contacto - Typeform -->
+          <div data-tf-widget="Vnxg0JYA" data-tf-iframe-props="title=Customer Satisfaction Survey (copy)" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
         </section>
       </div>
     </main>
 
     <!-- Footer -->
-    <footer>
-
+    <footer class="footer bg-info py-4">
+      <div class="container bg-light d-flex">
+        <div class="bg-secondary">
+          <a class="footer-brand" href="#home"><h2>Viajes Chile</h2></a>
+        </div>
+        <div class="footer-social bg-success ml-auto">
+          <a href="#"><i class="fab fa-github-square fa-3x mr-2"></i></a>
+          <a href="#"><i class="fab fa-linkedin fa-3x mr-2"></i></a>
+          <a href="#"><i class="fab fa-twitter-square fa-3x mr-2"></i></a>
+          <a href="#"><i class="fab fa-facebook-square fa-3x"></i></a>
+        </div>
+      </div>
     </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->
