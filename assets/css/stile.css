@@ -1,21 +1,50 @@
 /*General*/
 body{
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+
     background-color: black;
+    color:white;
 }
-/*Header*/
+
+html {
+    scroll-behavior: smooth;
+  }
+
+/*Content*/
 .navbar-brand img{
     width: 30px;
 }
 .carousel-item{
     max-height: 100vh;
 }
+
+/*Content*/
 .section__title{
     text-align: center;
-    border: 5px;
+    border-bottom: 5px solid #17A3B8 !important;
 }
-/*Content*/
 .card img{
     height: 250px;
 }
+.card{
+    border: 1px solid white !important;
+}
+
+/*color personal*/
+.bg__personal{
+    background-color: #17A3B8 !important;
+    color:white;
+}
 
 /*Footer*/
+
+.fab{
+    color: white;
+}
+.footer-brand{
+    color:white;
+    text-decoration: none !important;
+}
